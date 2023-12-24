@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemon_shedders",
+  "version": "1.4-fabric-1.0.0",
+  "name": "Cobblemon Shedders",
+  "description": "You know how when Ninjask evolves, Shedinja pops up? That, but you can do it for arbitrary Pokemon.",
+  "authors": [
+    "TimInc aka Timothy Metcalfe"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "us.timinc.mc.cobblemon.shedders.Shedders"
+      }
+    ]
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=1.20.1",
+    "fabricloader": ">=0.14.21",
+    "fabric-language-kotlin": ">=1.9.3+kotlin.1.8.20",
+    "fabric": "*",
+    "cobblemon": ">=1.4.0"
+  }
+}
